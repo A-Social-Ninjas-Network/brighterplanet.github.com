@@ -4,15 +4,86 @@
   <title>{{ page.title }}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Language" content="en" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="stylesheet" type="text/css" href="syntax.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/syntax.css" />
 </head>
 <body>
 
-<h1><img src="logo.png" alt="" />{{ page.title }}</h1>
+<div id="header">
+  <h1><img src="images/logo.png" alt="Brighter Planet" /></h1>
+  <ul>
+    <li><a href="http://brighterplanet.com">Home</a></li>
+    <li><a href="http://brighterplanet.com/about">About us</a></li>
+    <li><a href="http://brighterplanet.com">Dev hub</a></li>
+  </ul>
+</div>
 
+<div id="title">
+  <h1>Developer hub</h1>
+  <h2>Documentation and collaboration for Brighter Planet technology</h2>
+</div>
+
+<div id="content">
 {{ content }}
+</div>
+
+<div id="footer">
+  <div id="shortcuts">
+    <h3>Shortcuts</h3>
+    <ul>
+      <li><a href="http://brighterplanet.com">Home</a></li>
+      <li><a href="http://blog.brighterplanet.com">Blog</a></li>
+
+      <li><a href="http://brighterplanet.com/applications/prism">Prism</a></li>
+      <li><a href="http://brighterplanet.github.com">Dev</a></li>
+      <li><a href="http://keyring.brighterplanet.com">Keys</a></li>
+      <li><a href="http://carbon.brighterplanet.com">Carbon</a></li>
+      <li><a href="http://data.brighterplanet.com">Data</a></li>
+      <li><a href="http://cards.brighterplanet.com">Cards</a></li>
+
+      <li><a href="http://profiles.brighterplanet.com">Footprint</a></li>
+    </ul>
+  </div>
+  <div id="map">
+    <div id="slogan">
+      <h1>Brighter Planet</h1>
+      <p class="slogan">Carbon is everywhere</p>
+
+      <p class="description">Enterprise-grade cloud technology for climate intelligence.</p>
+      <p class="description"><a href="http://brighterplanet.com/about">About us</a> &nbsp;&middot;&nbsp; <a href="http://blog.brighterplanet.com">Our blog</a></p>
+    </div>
+    <div id="middleware">
+      <div class="main">
+        <h3>Carbon middleware</h3>
+
+        <p>Real-time, scalable web services to enhance your business applications</p>
+      </div>
+      <ul class="links">
+        <li><a href="#FIXME">Learn about how carbon middleware works</a></li>
+        <li><a href="http://brighterplanet.github.com">Information for developers</a></li>
+      </ul>
+      <ul class="industries">
+
+        <li class="prism"><a href="#FIXME"><strong>Prism</strong> carbon analytics for the payments industry</a></li>
+        <li class="alpha"><a href="#FIXME"><strong>Alpha</strong> for the shipping and logistics industry</a></li>
+        <li class="beta"><a href="#FIXME"><strong>Beta</strong> customer carbon information for the travel industry</a></li>
+      </ul>
+
+    </div>
+    <div id="consumer">
+      <div id="cards">
+        <h4>Credit and debit cards</h4>
+        <p>Powered by Bank of America, Visa, and Brighter Planet's carbon middleware technology</p>
+      </div>
+      <div id="profiler">
+        <h4>Carbon profiler</h4>
+
+        <p>The world's most advanced carbon footprint calculator, powered by carbon middleware</p>
+      </div>
+      <p><a href="#FIXME">See other apps powered by carbon middleware</a></p>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
-
