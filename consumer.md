@@ -1,5 +1,5 @@
 ---
-title: Consumer
+title: Integrator
 layout: default
 ---
 
