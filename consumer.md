@@ -56,6 +56,20 @@ Provision and assign carbon offsets in arbitrary sizes in real time.
 
 {:cta: .cta}
 
+## Libraries ##
+
+Brighter Planet is developing libraries for several popular programming languages to streamline the integration of our web services into youur application.
+
+### Ruby ###
+
+An early version of the official Ruby library for the emission estimates services is available in the [carbon](http://github.com/brighterplanet/carbon) gem:
+
+{% highlight console %}
+$ gem install carbon
+{% endhighlight %}
+
+*Libraries for other languages coming soon.*
+
 ## Sample applications ##
 
 Brighter Planet has prepared and open-sourced several sample applications to demonstrate the integration of the carbon middleware web services.
