@@ -468,6 +468,12 @@ p.flash.error:before {
   color: silver;
   font-weight: normal;
   text-transform: uppercase;
+  margin: 0 0 5px 0;
+}
+
+#footer #map #consumer h4 a {
+  color: silver;
+  text-decoration: none;
 }
 
 #footer #map #consumer p {
