@@ -58,7 +58,7 @@ Provision and assign carbon offsets in arbitrary sizes in real time.
 
 ## Libraries ##
 
-Brighter Planet is developing libraries for several popular programming languages to streamline the integration of our web services into youur application.
+Brighter Planet is developing libraries for several popular programming languages to streamline the integration of our web services into your application.
 
 ### Ruby ###
 
