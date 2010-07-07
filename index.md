@@ -15,13 +15,13 @@ Brighter Planet developers are typically available 9am-5pm Eastern Time in **#br
 * **dkastner**: [Derek Kastner](http://brighterplanet.com/users/dkastner), Rails Developer
 * **seamusabshere**: [Seamus Abshere](http://brighterplanet.com/users/seamusabshere), Engineering director
 
-Brighter Planet developers can be reached at [info@brighterplanet.com](mailto:info@brighterplanet.com).
+Brighter Planet developers can be reached at [staff@brighterplanet.com](mailto:staff@brighterplanet.com).
 
 ## Bug reports ##
 
 Issues with Brighter Planet **software available on GitHub** (e.g. emitters, plugins) should be submitted using GitHub's Issues system.
 
-Issues with Brighter Planet **web services** should be submitted to [info@brighterplanet.com](mailto:info@brighterplanet.com).
+Issues with Brighter Planet **web services** should be submitted to [staff@brighterplanet.com](mailto:staff@brighterplanet.com).
 
 ## Other Brighter Planet software ##
 
