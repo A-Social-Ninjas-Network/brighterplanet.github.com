@@ -61,6 +61,8 @@ class Layout
     end
   end
   
+  def javascript_include_tag(*args); end
+  
   def csrf_meta_tag; end
   def render_or_nothing(*args); end
     

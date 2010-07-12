@@ -32,6 +32,10 @@ namespace :layout do
       end
     end
     
+    File.open File.join(File.dirname(__FILE__), 'favicon.ico'), 'wb' do |f|
+      f.puts Net::HTTP.get(URI.parse("http://github.com/brighterplanet/brighter_planet_layout/raw/master/public/favicon.ico"))
+    end
+
 #    Dir.mkdir(File.join(File.dirname(__FILE__), 'stylesheets', 'fonts'))
 
 #    %w(KievitWebPro KievitWebPro-Bold KievitWebPro-BoldIta KievitWebPro-Ita).each do |font|
