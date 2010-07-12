@@ -3,9 +3,28 @@ title: Brighter Planet Developer Hub
 layout: default
 ---
 
-* [Integrator](consumer.html) I want to **use Brighter Planet web services** to build climate features into my software
-* [Collaborator](collaborator.html) I want to review or help improve the **science and data** behind Brighter Planet calculations
-{.roles}
+# Cloud technology for climate change #
+
+Brighter Planet software allows developers to extend their applications with carbon intelligence.
+
+## Web services ##
+
+*   ### [Emission estimates](http://carbon.brighterplanet.com) ###
+    Retrieve emission estimates in real time for real-world emitters like automobiles and flights.
+*   ### [Climate data](http://data.brighterplanet.com) ###
+    Fetch normalized climate and lifestyle datasets in a variety of formats.
+*   ### Emission envelopes *coming soon* ###
+    Build emission estimates for complex emission agents like people and shipments.
+*   ### Offset provision *coming soon* ###
+    Provision and assign carbon offsets in arbitrary sizes in real time.
+{.services}
+
+## API keys ##
+
+Most Brighter Planet web service requests require the use of an API key. Some requests will require you to have a credit card on file associated with your key.
+
+[Get an API key](http://keyring.brighterplanet.com)
+{:cta .key}
 
 ## Getting help ##
 
@@ -53,3 +72,9 @@ In addition to our carbon middleware web services, Brighter Planet has also rele
 
 *  ###[verbs](http://github.com/rossmeissl/verbs)###
    English verb conjugation for Ruby (and Rails).
+{.packages}
+   
+   
+{:cta: .cta}
+
+
