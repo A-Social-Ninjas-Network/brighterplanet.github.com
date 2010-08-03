@@ -92,6 +92,7 @@ p.key a {
 
 #content>ul h3 {
   margin-left: 0;
+  margin-top: 0;
 }
 
 #content>ul.services, #content>ul.packages {
@@ -108,7 +109,7 @@ ul.services li, ul.packages li {
   overflow: auto;
   padding: 10px 10px 10px 100px;
   margin: 0 0 15px 0;
-  background: url(images/wind.png) no-repeat 0 50%;
+  background: url(images/cloud.png) no-repeat -30px 50%;
 }
 
 ul.services li a, ul.packages li a {
@@ -122,6 +123,7 @@ ul.services li h3 em {
 
 ul.services li+li {
   background-image: url(images/magnifying_glass.png);
+  background-position: -10px 50%;
 }
 
 ul.services li+li+li {
