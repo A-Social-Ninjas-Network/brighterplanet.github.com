@@ -13,10 +13,6 @@ Brighter Planet software allows developers to extend their applications with car
     Retrieve emission estimates in real time for real-world emitters like automobiles and flights.
 *   ### [Climate data](http://data.brighterplanet.com) ###
     Fetch normalized climate and lifestyle datasets in a variety of formats.
-*   ### Emission envelopes *coming soon* ###
-    Build emission estimates for complex emission agents like people and shipments.
-*   ### Offset provision *coming soon* ###
-    Provision and assign carbon offsets in arbitrary sizes in real time.
 {.services}
 
 ## API keys ##

@@ -1,6 +1,15 @@
+module Rails
+  module VERSION
+    MAJOR = nil
+  end
+end
+
 module Link
   def link_to(text, url)
     "<a href=\"#{url}\">#{text}</a>"
+  end
+  def link_to_homesite(text, path = '')
+    link_to text, 'http://brighterplanet.com/' + path
   end
 end
 
@@ -22,17 +31,14 @@ end
 class Footer
   include Link
 
+  def render(*args); end
+
   def get_binding
     binding
   end
 end
 
 class GoogleAnalytics
-  class Rails
-    def self.application; self end
-    def self.google_analytics_ua_number; 'UA-1667526-18' end
-  end
-  
   def javascript_tag(&blk)
     @output << '<script type="text/javascript">'
     yield
@@ -44,17 +50,13 @@ class GoogleAnalytics
   end
 end
 
+class BrighterPlanetLayout
+  def self.application; self end
+  def self.application_name; 'Developer hub' end
+  def self.google_analytics_ua_number; 'UA-1667526-18' end
+end
+
 class Layout
-  class Rails
-    def self.application
-      self
-    end
-    
-    def self.name
-      'Developer Hub'
-    end
-  end
-  
   def stylesheet_link_tag(*sheets)
     sheets.collect do |sheet|
       "<link rel=\"stylesheet\" type=\"text/css\" href=\"/stylesheets/#{sheet}.css\" />"

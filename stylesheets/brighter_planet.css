@@ -53,7 +53,7 @@
 body {
   margin: 0;
   font-size: 13px;
-  background: #222 url(images/bg.png) repeat-y;
+  background: #111;
 }
 
 body, input, select, button {
@@ -65,12 +65,31 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl, dt, dd {
   padding: 0;
 }
 
-pre {
+pre, kbd {
   font-family: "DejaVu Mono", monospace;
+}
+
+pre {
+  display: block;
+  line-height: 1.4;
+  overflow: auto;
+  background: white;
+  padding: 10px;
+  margin: 10px -15px;
+  border-top: 1px solid #ddd;
+  -moz-box-shadow: inset 0 5px 5px #eee;
 }
 
 a {
   outline: none;
+}
+
+a img {
+  border: none;
+}
+
+.sub {
+  font-size: smaller;
 }
 
 #header {
@@ -235,6 +254,10 @@ a {
   color: blue;
 }
 
+#title h2 a {
+  color: inherit;
+}
+
 #title h2 {
   color: #333;
 }
@@ -268,6 +291,30 @@ a {
   margin: 25px 10px 20px 150px;
   text-shadow: 1px 1px 0 white;
   color: gray;
+}
+
+#content h3 {
+  margin: 30px 15px 0 150px;
+}
+
+#content>ul {
+  list-style: square;
+  margin: 10px 15px 10px 150px;
+  padding: 0 0 0 1em
+}
+
+#content p.cta {
+  border: 1px solid #5FBBFF;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+p.cta a {
+  display: block;
+  padding: 10px;
+  color: blue;
 }
 
 #content form dl dt {
@@ -521,8 +568,8 @@ p.flash.error:before {
 }
 
 #footer #map #slogan {
-  margin: 25px 10px 0 10px;
-  width: 150px;
+  margin: 25px 10px 0 13px;
+  width: 147px;
   float: left;
 }
 
@@ -546,14 +593,17 @@ p.flash.error:before {
   color: silver;
 }
 
-#footer #map #middleware {
+#footer #map #middleware, #footer #map #applications {
+  margin: 25px 30px 0 0;
   float: left;
-  width: 320px;
-  margin: 25px 80px 0 0;
+  width: 225px;
+}
+
+#footer #map #middleware {
   font-size: 11px;
 }
 
-#footer #map #middleware h3 {
+#footer #map h3 {
   color: silver;
   text-transform: uppercase;
   font-weight: normal;
@@ -564,6 +614,10 @@ p.flash.error:before {
   color: gray;
 }
 
+#footer #map #middleware p a {
+  color: #999;
+}
+
 #footer #map #middleware ul.links {
   list-style: none;
   border-top: 1px solid #222;
@@ -572,6 +626,7 @@ p.flash.error:before {
 
 #footer #map #middleware ul.links li {
   margin: 0 0 7px;
+  color: #444;
 }
 
 #footer #map #middleware ul.links li:before {
@@ -594,141 +649,177 @@ p.flash.error:before {
 
 #footer #map #middleware ul.links li a {
   color: gray;
-}
-
-#footer #map #middleware ul.industries {
-  list-style: none;
-  margin: 25px 0 0;
-  color: gray;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid #222;
-  border-right: 1px solid #222;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-#footer #map #middleware ul.industries li {
-  background: #050505;
-  border-top: 1px solid black;
-  border-bottom: 1px solid #222;
-}
-
-#footer #map #middleware ul.industries li:first-child {
-  border-top: none;
-  -moz-border-radius: 5px 5px 0 0;
-  -webkit-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-}
-
-#footer #map #middleware ul.industries li:last-child {
-  border-bottom: none;
-  -moz-border-radius: 0 0 5px 5px;
-  -webkit-border-radius: 0 0 5px 5px;
-  border-radius: 0 0 5px 5px;
-}
-
-#footer #map #middleware ul.industries li a {
-  padding: 7px 7px 7px 32px;
-  background-repeat: no-repeat;
-  background-position: 5px 50%;
   display: block;
-  text-decoration: none;
-  color: gray;
-}
-
-#footer #map #middleware ul.industries a:hover {
-  background-color: black;
-}
-
-#footer #map #middleware ul.industries li a strong {
-  color: silver;
-  text-transform: uppercase;
-  font-weight: normal;
-  text-decoration: underline;
-  padding: 0 2px 0 0;
-}
-
-#footer #map #middleware ul.industries li.prism a {
-  background-image: url(images/prism.png);
 }
 
 #footer #map #middleware .main {
   padding: 0 0 10px 80px;
   background: url(images/gears.png) no-repeat;
-  min-height: 52px;
-  border-bottom: 1px solid black;
-}
-  
-
-#footer #map #consumer {
-  float: left;
-  width: 320px;
-  background: url(images/cards.png) no-repeat;
-  min-height: 200px;
-}
-
-#footer #map #consumer #cards {
-  margin: 28px 0 0;
-  padding: 0 0 30px 160px;
-  font-size: 11px;
+  min-height: 47px;
   border-bottom: 1px solid black;
 }
 
-#footer #map #consumer h4 {
-  color: silver;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
+#footer #map #applications {
+  margin: 25px 20px 0 0;
 }
 
-#footer #map #consumer h4 a {
-  color: silver;
-  text-decoration: none;
+#footer #map #applications h3 {
+  display: none;
 }
 
-#footer #map #consumer p {
+#footer #map #applications ul {
+  background: #080808;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: -1px -1px 0 black;
+  -webkit-box-shadow: -1px -1px 0 black;
+  box-shadow: -1px -1px 0 black;
+  list-style: none;
+}
+
+#footer #map #applications ul li {
+  padding: 10px;
+  border-bottom: 1px solid #111;
+  border-top: 1px solid black;
   color: gray;
 }
 
-#footer #map #consumer #profiler {
-  border-top: 1px solid #333;
-  padding: 0 90px 15px 0;
+#footer #map #applications ul li:first-child {
+  border-top: none;
+}
+
+#footer #map #applications ul li:last-child {
+  border-bottom: none;
+}
+
+#footer #map #applications ul li.cards {
+  padding-top: 70px;
+  text-align: center;
+  background: url(images/cards.png) no-repeat 50% 4px;
+}
+
+#footer #map #applications ul li.profiler {
   font-size: 11px;
-  background: url(images/emitters.png) no-repeat 100% 10px;
-  min-height: 61px;
-  border-bottom: 1px solid black;
+  padding-left: 50px;
+  background: url(images/meter.png) no-repeat 10px 60%;
 }
 
-#footer #map #consumer #profiler h4 {
-  padding: 15px 0 0;
+#footer #map #applications ul li a {
+  color: silver;
 }
 
-#footer #map #consumer>p {
-  border-top: 1px solid #333;
-  padding: 10px 0 0;
-  font-size: 11px;
-}
-
-#footer #map #consumer a {
-  color: gray;
-}
-
-#footer #map #consumer>p:before {
-  content: "▶";
-  display: block;
+#footer #map #elsewhere {
   float: left;
-  width: 1em;
-  background: #555;
+  width: 300px;
+  margin: 25px 0 0;
+  color: silver;
+}
+
+#footer #map #elsewhere>div {
+  position: relative;
+}
+
+#footer #map #elsewhere>div:after {
+  content: "◣";
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  width: 50px;
   color: #222;
-  padding: 0 0 1px 2px;
-  line-height: 14px;
+  font-size: 18px;
+}
+
+#footer #map #elsewhere #twitter {
+  background: url(images/radiant_earth-small.png) no-repeat 100% 100%;
+  margin: 0 0 25px;
+}
+
+#footer #map #elsewhere #blog.derek {
+  background: url(http://numbers.brighterplanet.com/stylesheets/images/derek.jpg) no-repeat 100% 100%;
+}
+
+#footer #map #elsewhere>div p {
+  background: #222;
+  -moz-box-shadow: -1px -1px 0 black;
+  -webkit-box-shadow: -1px -1px 0 black;
+  box-shadow: -1px -1px 0 black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 0 black;
+}
+
+#footer #map #elsewhere p {
+  padding: 10px;
+  margin: 0 48px 0 0;
+}
+
+#footer #map #elsewhere p span {
+  color: gray;
+}
+
+#footer #map #elsewhere p a {
+  color: inherit;
+}
+
+ul.pages {
+  background: #F1F1F1;
+  padding: 15px 15px 10px 165px;
+  list-style: none;
+  overflow: auto;
+}
+
+ul.pages li {
+  float: left;
   margin: 0 5px 0 0;
+}
+
+ul.pages li:first-child {
+  margin-left: -6px;
+}
+
+ul.pages li.current {
+  background: white;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  text-shadow: none;
-  font-size: 13px;
-  -moz-box-shadow: black 1px 1px 0;
+  font-weight: bold;
+  -moz-box-shadow: -1px -1px 0 silver;
+  -webkit-box-shadow: -1px -1px 0 silver;
+  box-shadow: -1px -1px 0 silver;
+}
+
+ul.pages li.current:first-child {
+  margin-left: 0;
+}
+
+ul.pages li.current, ul.pages li a {
+  line-height: 24px;
+  padding: 0 6px;
+}
+
+ul.pages li a {
+  display: block;
+  color: blue;
+}
+
+ul.pages li a:hover {
+  background-image:
+    -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(230,230,230)),
+      color-stop(1, rgb(200,200,200))
+    );
+  background-image:
+    -moz-linear-gradient(
+      center top,
+      rgb(230,230,230) 0%,
+      rgb(200,200,200) 100%
+    );
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
