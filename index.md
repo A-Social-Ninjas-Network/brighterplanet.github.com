@@ -19,7 +19,7 @@ Brighter Planet software allows developers to extend their applications with car
 
 Most Brighter Planet web service requests require the use of an API key. Some requests will require you to have a credit card on file associated with your key.
 
-[Get an API key](http://keyring.brighterplanet.com)
+[Get an API key](http://keys.brighterplanet.com)
 {:cta .key}
 
 ## Getting help ##
