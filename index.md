@@ -42,8 +42,11 @@ Issues with Brighter Planet **web services** should be submitted to [staff@brigh
 
 In addition to our carbon middleware web services, Brighter Planet has also released several general-purpose software modules:
 
-*  ###[characterizable](http://github.com/seamusabshere)###
+*  ###[characterizable](http://github.com/seamusabshere/characterizable)###
    A DSL for establishing a curation strategy to reduce ActiveRecord attributes to a set of meaningful characteristics.
+
+*  ###[cohort_scope](http://github.com/seamusabshere/cohort_scope)###
+   Find records using prioritized criteria.
 
 *  ###[data_miner](http://github.com/seamusabshere/data_miner)###
    Download and import XLS, ODS, XML, CSV, etc. into your ActiveRecord models.
