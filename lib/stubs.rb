@@ -1,9 +1,3 @@
-module Rails
-  module VERSION
-    MAJOR = nil
-  end
-end
-
 module Link
   def link_to(text, url)
     "<a href=\"#{url}\">#{text}</a>"
@@ -83,4 +77,16 @@ class String
   end
 end
 
-
+class Rails
+  module VERSION
+    MAJOR = nil
+  end
+  class << self
+    def env
+      self
+    end
+    def production?
+      true
+    end
+  end
+end
