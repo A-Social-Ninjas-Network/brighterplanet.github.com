@@ -160,7 +160,7 @@ body.index p.description {
 }
 
 body.index .service {
-  margin: 0 0 15px 143px;
+  margin: 0 0 30px 143px;
   background: #e9e9e9;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -175,6 +175,10 @@ body.index .service .key {
   -moz-border-radius: 0 5px 0 0;
   -webkit-border-radius: 0 5px 0 0;
   border-radius: 0 5px 0 0;
+}
+
+body.index .service .key p {
+  padding: 0;
 }
 
 body.index .service .key a {
@@ -202,7 +206,7 @@ body.index .service .documentation {
 body.index .service h2 {
   margin: 0 !important;
   padding: 7px;
-  background: #ddd;
+  background: #ccc;
   -moz-border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
@@ -212,7 +216,51 @@ body.index .service h2 a {
   color: blue;
 }
 
-body.index .service p.description {
+body.index .service p {
   padding: 7px;
 }
 
+body.index .service pre {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body.index .service .example {
+  text-transform: uppercase;
+  color: #444;
+  font-size: 12px;
+  text-shadow: 1px 1px 0 white;
+}
+
+body.index .service .example a {
+  text-transform: none;
+  font-size: 11px;
+  color: gray;
+}
+
+body.index .service .pricing {
+  width: 150px;
+  float: right;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  border-left: 1px solid #ddd;
+  font-size: 11px;
+  margin: 10px 0 0 20px;
+  color: gray;
+  
+}
+
+body.index .service .pricing strong {
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+  color: #333;
+}
+
+#content {
+  background-image: url(images/gears.png);
+  background-repeat: no-repeat;
+  background-position: 70px 65px;
+}
