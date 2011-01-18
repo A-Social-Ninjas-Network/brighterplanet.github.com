@@ -10,6 +10,14 @@ end
 class Header
   include Link
   
+  def link_to(text, url)
+    if text == 'Developer site'
+      text
+    else
+      super
+    end
+  end
+  
   def render(*args)
     "{% include title.html %}"
   end
