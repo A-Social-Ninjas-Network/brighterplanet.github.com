@@ -8,8 +8,6 @@ class: projects
 
 ## Other Brighter Planet software ##
 
-In addition to our carbon middleware web services, Brighter Planet has also released several general-purpose software modules:
-
 *  ###[characterizable](http://github.com/seamusabshere/characterizable)###
    A DSL for establishing a curation strategy to reduce ActiveRecord attributes to a set of meaningful characteristics.
 

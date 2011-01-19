@@ -167,6 +167,8 @@ body.index .service {
   border-radius: 5px;
   overflow: auto;
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
 body.index .service .key {
@@ -260,7 +262,7 @@ body.index .service .pricing strong {
   color: #333;
 }
 
-#content {
+body.index #content {
   background-image: url(images/gears.png);
   background-repeat: no-repeat;
   background-position: 70px 65px;
@@ -307,4 +309,107 @@ body.index .extras .fellowship h3 {
 body.index .extras {
   overflow: auto;
   padding: 0 0 0 150px;
+}
+
+body.fellowship .ideas {
+  float: right;
+  width: 250px;
+  background: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 7px;
+  -moz-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);
+  margin: 0 0 0 20px;
+}
+
+body.fellowship .ideas h2 {
+  margin: 0 0 10px !important;
+  font-size: 16px !important;
+  font-weight: normal;
+}
+
+body.fellowship .ideas ul {
+  list-style: none;
+  color: #444;
+}
+
+body.fellowship .ideas ul li {
+  padding-bottom: 5px;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+body.fellowship .ideas ul li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+body.fellowship dl {
+  overflow: auto;
+  font-size: 14px;
+  margin: 0 0 20px 150px;
+  border-bottom: 1px solid silver;
+  padding: 0 0 10px;
+}
+
+body.fellowship dl dd, body.fellowship dl dt {
+  padding: 10px 0 0;
+  margin: 10px 0 0;
+  border-top: 1px solid silver;
+}
+
+body.fellowship dl dt {
+  float: left;
+  width: 160px;
+  font-weight: bold;
+  clear: left;
+}
+
+body.fellowship dl dd {
+  margin-left: 160px;
+}
+
+body.fellowship ul.fellows {
+  list-style: none !important;
+  padding: 0 !important;
+  margin-right: 0 !important;
+}
+
+body.fellowship ul.fellows li {
+  background: url(/images/scott.jpg) #e9e9e9 100% -20px no-repeat;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  padding: 0 0 10px;
+}
+
+body.fellowship ul.fellows li h3 {
+  font-size: 16px;
+  text-shadow: 1px 1px 0 white;
+  background: #ccc;
+  padding: 10px;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+  width: 525px;
+}
+
+body.fellowship ul.fellows li h3 span {
+  color: #444;
+}
+
+body.fellowship ul.fellows li p {
+  margin: 10px 0 0 10px;
+  width: 510px;
+}
+
+.strike {
+  text-decoration: line-through;
 }
