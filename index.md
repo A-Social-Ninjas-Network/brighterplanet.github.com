@@ -74,7 +74,7 @@ A [Ruby library](http://github.com/brighterplanet/earth) is available.
 {.features}
 
 +--
-### Developer fellowship program ###
+### [Developer fellowship program](/fellowship.html) ###
 Brighter Planet uses dozens of open source software packages in the process of delivering carbon calculations to its users. Our developer fellowship program provides sponsorship funding to accelerate the ongoing development of these tools and kickstart other applications---especially projects that make use of Brighter Planet web services. Interested? [Apply today](/fellowship.html)
 =--
 {.fellowship}
