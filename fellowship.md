@@ -24,7 +24,7 @@ Application deadline
 : Rolling
 
 Sponsorship amount
-: $1,000--$50,000
+: Typically $1,000--$3,000 (other amounts considered for larger projects)
 
 Eligible parties
 : Individual developers, informal teams, established organizations
