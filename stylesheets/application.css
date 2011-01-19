@@ -166,6 +166,7 @@ body.index .service {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   overflow: auto;
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
 body.index .service .key {
@@ -263,4 +264,47 @@ body.index .service .pricing strong {
   background-image: url(images/gears.png);
   background-repeat: no-repeat;
   background-position: 70px 65px;
+}
+
+body.index ul.features {
+  list-style: none !important;
+  padding: 7px 0 0 !important;
+  overflow: auto;
+  width: 440px;
+  float: left;
+  margin-top: 0 !important;
+}
+
+body.index ul.features li {
+  float: left;
+  width: 200px;
+  margin: 0 20px 0 0;
+}
+
+body.index ul.features li h3 {
+  margin: 0 !important;
+}
+
+body.index ul.features li p {
+  margin: 0 0 10px;
+}
+
+body.index .extras .fellowship {
+  float: left;
+  width: 340px;
+  background: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 7px;
+  -moz-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);
+}
+
+body.index .extras .fellowship h3 {
+  margin: 0 !important;
+}
+
+body.index .extras {
+  overflow: auto;
+  padding: 0 0 0 150px;
 }

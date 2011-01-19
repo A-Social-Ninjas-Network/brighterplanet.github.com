@@ -60,3 +60,23 @@ A [Ruby library](http://github.com/brighterplanet/earth) is available.
 
 =--
 {.service .data}
+
++--
+*  ### Getting support ###
+   Find us in #brighterplanet on [freenode](http://freenode.net), 9-5 ET, for help with Brighter Planet web services: integration, API questions, and more
+
+   [More details](/support.html)
+
+*  ### Open source ###
+   Brighter Planet maintains and actively supports open source projects, including [data_miner](http://github.com/seamusabshere/data_miner), [leap](http://github.com/rossmeissl/leap), [tronprint](http://github.com/brighterplanet/tronprint), and many more
+
+   [More details](/projects.html)
+{.features}
+
++--
+### Developer fellowship program ###
+Brighter Planet uses dozens of open source software packages in the process of delivering carbon calculations to its users. Our developer fellowship program provides sponsorship funding to accelerate the ongoing development of these tools and kickstart other applications---especially projects that make use of Brighter Planet web services. Interested? [Apply today](/fellowship.html)
+=--
+{.fellowship}
+=--
+{.extras}
