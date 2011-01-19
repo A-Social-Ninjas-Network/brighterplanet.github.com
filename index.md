@@ -17,10 +17,10 @@ class: index
  
 ## [Brighter Planet CM1](http://carbon.brighterplanet.com) ##
 
-On-demand carbon calculations for real-world emission sources like automobiles and flights
+On-demand carbon calculations for real-world emission sources like automobiles and flights ([complete model list](http://carbon.brighterplanet.com/models))
 {.description}
 
-Example query (response in XML) [Visualize this with Hurl](#)
+Example query (response in XML) [Visualize this with Hurl](http://hurl.it/views/b1b6dd36f18e450b01fc7bdfbdbc12fe6ec19c61)
 {.example}
 
 <pre>POST http://carbon.brighterplanet.com/flights.xml?airline=united&amp;origin_airport=lax&amp;destination_airport=jfk&amp;seat_class=economy&key=YOUR_KEY
@@ -45,10 +45,10 @@ A [Ruby library and CLI](http://github.com/brighterplanet/carbon) is available. 
 Normalized datasets like airports and zipcodes, pulled transparently from authoritative sources
 {.description}
 
-Example query (response in XML) [Visualize this with Hurl](#)
+Example query (response in XML) [Visualize this with Hurl](http://hurl.it/views/c584e88ea7b3293b0f1df42b7932d54a567a8aeb)
 {.example}
 
-<pre>GET http://data.brighterplanet.com/airlines.json
+<pre>GET http://data.brighterplanet.com/fuel_types.json
 </pre>
 
 **No charge** for all users
