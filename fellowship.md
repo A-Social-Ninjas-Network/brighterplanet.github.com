@@ -24,13 +24,13 @@ Application deadline
 : Rolling
 
 Sponsorship amount
-: Typically $1,000--$3,000 (other amounts considered for larger projects)
+: Typically $1,000--$3,000
 
 Eligible parties
 : Individual developers, informal teams, established organizations
 
-Qualifications
-: Fellowship projects should 1) make Brighter Planet customers' lives easier and 2) benefit the greater open source community
+To apply
+: Describe your project in whatever way works best (text, links, code, etc.) in an email to fellowship@brighterplanet.com.
 
 From our primary language ([Ruby](http://ruby-lang.org)) to our application framework ([Rails](http://rubyonrails.org)) to our toolset ([vagrant](http://vagrantup.com), [rvm](http://rvm.beginrescueend.com/), [bundler](http://gembundler.com/), etc.), Brighter Planet's technology platform makes extensive use of truly irreplaceable open source software packages. It's important to us to give back to the community. The first way we do this is by contributing our own [open source projects](/projects.html) to the commons. The second way takes a cue from Engine Yard's [Community Grant program](http://www.engineyard.com/blog/2010/mitchell-hashimoto-joins-engine-yard-oss-community-grant-program/): we sponsor developers of important tools in order to accelerate and intensify their development.
 
