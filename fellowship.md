@@ -15,6 +15,7 @@ class: fellowship
 * Initial development on a carbon model we haven't made yet
 * A programmable data-extraction tool for PDFs
 * [TripIt itinerary carbon footprints]{.strike}
+* CM1 library in a non-Ruby language (e.g. Python, Java)
 =--
 {.ideas}
 
