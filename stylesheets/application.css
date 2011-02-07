@@ -380,7 +380,9 @@ body.fellowship ul.fellows {
 }
 
 body.fellowship ul.fellows li {
-  background: url(/images/scott.jpg) #e9e9e9 100% -20px no-repeat;
+  background-color: #e9e9e9;
+  background-position: 100% -20px;
+  background-repeat: no-repeat;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -388,7 +390,11 @@ body.fellowship ul.fellows li {
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
   padding: 0 0 10px;
+  margin: 0 0 20px;
 }
+
+body.fellowship ul.fellows li:first-child { background-image: url(/images/scott.jpg); }
+body.fellowship ul.fellows li:last-child { background-image: url(/images/matt.jpg); }
 
 body.fellowship ul.fellows li h3 {
   font-size: 16px;
