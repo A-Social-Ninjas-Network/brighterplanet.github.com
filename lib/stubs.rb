@@ -58,6 +58,10 @@ class BrighterPlanetLayout
   def self.google_analytics_ua_number; 'UA-1667526-20' end
 end
 
+class BrighterPlanet
+  def self.layout() BrighterPlanetLayout end
+end
+
 class Layout
   def stylesheet_link_tag(*sheets)
     sheets.collect do |sheet|
