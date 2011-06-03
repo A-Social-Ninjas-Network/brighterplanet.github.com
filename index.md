@@ -4,79 +4,21 @@ layout: default
 class: index
 ---
 
-# Our web services #
+## [CM1](http://carbon.brighterplanet.com) ##
 
-+--
- +--
-  [API key required](http://keys.brighterplanet.com)
- =--
- {.key}
- 
-[Documentation](http://carbon.brighterplanet.com/documentation)
-{.documentation}
- 
-## [Brighter Planet CM1](http://carbon.brighterplanet.com) ##
+On-demand carbon calculations. Requires an [API key](http://keys.brighterplanet.com).
 
-On-demand carbon calculations for real-world emission sources like automobiles and flights ([complete model list](http://carbon.brighterplanet.com/models))
-{.description}
-
-Example query (response in XML) [Visualize this with Hurl](http://hurl.it/views/b1b6dd36f18e450b01fc7bdfbdbc12fe6ec19c61)
-{.example}
-
-<pre>POST http://carbon.brighterplanet.com/flights.xml?airline=united&amp;origin_airport=lax&amp;destination_airport=jfk&amp;seat_class=economy&key=YOUR_KEY
-</pre>
-
-**½–1¢ per query** for commercial use
-{.pricing}
-
-CM1 supports both synchronous and asynchronous operation, server- and client-side execution, and various caching techniques. See the [documentation](http://carbon.brighterplanet.com/documentation) for details.
-
-A [Ruby library and CLI](http://github.com/brighterplanet/carbon) is available. More language bindings to come---in the meantime, use your language's generic REST client.
-
-=--
-{.service .cm1}
-
-+--
-[Documentation](http://data.brighterplanet.com/documentation)
-{.documentation}
+{% highlight console %}
+$ curl http://carbon.brighterplanet.com/flights.json -d "airline=United&origin_airport=LAX&destination_airport=JFK&key=abc123"
+{"timeframe":"2011-01-01/2012-01-01","emission":1593.227527657828 ... }
+{% endhighlight %}
 
 ## [Reference data](http://data.brighterplanet.com) ##
 
-Normalized datasets like airports and zipcodes, pulled transparently from authoritative sources
-{.description}
+Normalized datasets like airports and zipcodes, pulled transparently from authoritative sources.
 
-Example query (response in XML) [Visualize this with Hurl](http://hurl.it/views/c584e88ea7b3293b0f1df42b7932d54a567a8aeb)
-{.example}
-
-<pre>GET http://data.brighterplanet.com/fuel_types.json
-</pre>
-
-**No charge** for all users
-{.pricing}
-
-Our reference data service provides useful datasets in four convenient formats. The service also supports the Taps protocol popularized by Heroku.
-
-A [Ruby library](http://github.com/brighterplanet/earth) is available.
-
-=--
-{.service .data}
-
-+--
-*  ### Getting support ###
-   Find us in #brighterplanet on [freenode](http://freenode.net), 9-5 ET, for help with Brighter Planet web services: integration, API questions, and more
-
-   [More details](/support.html)
-
-*  ### Open source ###
-   Brighter Planet maintains and actively supports open source projects, including [data_miner](http://github.com/seamusabshere/data_miner), [leap](http://github.com/rossmeissl/leap), [tronprint](http://github.com/brighterplanet/tronprint), and many more
-
-   [More details](/projects.html)
-{.features}
-
-+--
-### [Developer fellowship program](/fellowship.html) ###
-Brighter Planet uses dozens of open source software packages in the process of delivering carbon calculations to its users. Our developer fellowship program provides sponsorship funding to accelerate the ongoing development of these tools and kickstart other applications---especially projects that make use of Brighter Planet web services. Interested? [Apply today](/fellowship.html)
-=--
-{.fellowship}
-=--
-{.extras}
+{% highlight console %}
+$ curl -s http://data.brighterplanet.com/airlines.csv | head -n 2
+iata_code,name,dot_airline_id_code,international,seats,distance,distance_units,load_factor,freight_share,payload,payload_units
+02Q,Titan Airways,21040,1,184.51,5754.37,,0.738538,0,27068.7,
+{% endhighlight %}
