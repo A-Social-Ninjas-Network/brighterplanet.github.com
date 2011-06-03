@@ -33,8 +33,7 @@ ul.pages li.secondary {
 body.index ul.pages li.index a,
 body.support ul.pages li.support a,
 body.fellowship ul.pages li.fellowship a,
-body.collaboration ul.pages li.collaboration a,
-body.projects ul.pages li.projects a
+body.open_source ul.pages li.open_source a
 {
   background: white;
   -moz-border-radius: 3px;
@@ -154,6 +153,30 @@ body.fellowship ul.fellows li h3 span {
 body.fellowship ul.fellows li p {
   margin: 10px 0 0 10px;
   width: 510px;
+}
+
+body.transparency h2 {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+body.transparency #content img {
+  margin: 20px 0 20px -150px;
+}
+
+body.transparency #content p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+body.transparency #content ul {
+  float: right;
+  width: 360px;
+  margin: 0 0 0 40px;
+}
+
+body.transparency .intro {
+  max-width: none !important;
 }
 
 .strike {
