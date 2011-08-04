@@ -132,8 +132,9 @@ body.fellowship ul.fellows li {
   margin: 0 0 20px;
 }
 
-body.fellowship ul.fellows li:first-child { background-image: url(/images/scott.jpg); }
-body.fellowship ul.fellows li:last-child { background-image: url(/images/matt.jpg); }
+body.fellowship ul.fellows li { background-image: url(/images/oroeco.jpg); }
+body.fellowship ul.fellows li+li { background-image: url(/images/matt.jpg); }
+body.fellowship ul.fellows li+li+li { background-image: url(/images/scott.jpg); }
 
 body.fellowship ul.fellows li h3 {
   font-size: 16px;

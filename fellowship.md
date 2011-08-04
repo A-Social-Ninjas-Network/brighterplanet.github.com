@@ -37,6 +37,19 @@ From our primary language ([Ruby](http://ruby-lang.org)) to our application fram
 
 ## Developer fellows ##
 
+*  ### The Oroeco Team <span>What you buy makes a difference</span> ###
+
+   **About Oroeco**  Based out of San Francisco, [Oroeco](http://oroeco.com) is working on helping folks track their personal impact based on what they purchase. The team is developing a web application that dynamically links personalized consumer spending data to social and environmental lifecycle assessment data.
+
+   **Follow along** at Brighter Planet's blog [Safety in Numbers](http://numbers.brighterplanet.com), where Oroeco will be writing about their progress.
+   
+*  ### Matt Colyer <span>smartermeter: Liberating PG&amp;E energy use data</span> ###
+
+   **About Matt** [Matt Colyer](http://matt.colyer.name) is a developer with a passion to understand how things work. This has led him to be interested in a wide variety of things including making the [iPhone work on Linux](http://www.libimobiledevice.org/), creating [a USB receiver for the Black and Decker Energy Meter](http://matt.colyer.name/projects/power-meter/) and retrieving smart meter data from PG&E using [`smartermeter`](https://github.com/mcolyer/smartermeter). When he's not at a computer, he enjoys riding his rebuilt fixed gear bike or backpacking in one of California's many parks.
+   
+   **About `smartermeter`** `smartermeter`, currently on version 0.2.1, is primarily a Ruby library for accessing (scraping) PG&amp;E energy use data. Future plans include carbon calculations by CM1 and a UI for PG&amp;E customers. 
+   
+   **Follow along** at [Matt's blog](http://matt.colyer.name), where he'll be writing about his ongoing experience with `smartermeter`.
 *  ### Scott Bulua <span>TripCarbon: Carbon footprints of TripIt itineraries</span> ###
 
    **About Scott** [Scott](http://twitter.com/#!/iamscott)'s an old hand at both climate and computers, having led the climate campaign at Middlebury College which later became the Sunday Night Group---the foundation for the globally successful [350.org](http://350.org) campaign---and having served as a developer at both [EchoDitto](http://echoditto.com) and our favorite media conglomerate [GOOD](http://good.is).
@@ -45,11 +58,4 @@ From our primary language ([Ruby](http://ruby-lang.org)) to our application fram
    
    **Follow along** at Brighter Planet's blog [Safety in Numbers](http://numbers.brighterplanet.com), where Scott will be writing about his experience.
 
-*  ### Matt Colyer <span>smartermeter: Liberating PG&amp;E energy use data</span> ###
-
-   **About Matt** [Matt Colyer](http://matt.colyer.name) is a developer with a passion to understand how things work. This has led him to be interested in a wide variety of things including making the [iPhone work on Linux](http://www.libimobiledevice.org/), creating [a USB receiver for the Black and Decker Energy Meter](http://matt.colyer.name/projects/power-meter/) and retrieving smart meter data from PG&E using [`smartermeter`](https://github.com/mcolyer/smartermeter). When he's not at a computer, he enjoys riding his rebuilt fixed gear bike or backpacking in one of California's many parks.
-   
-   **About `smartermeter`** `smartermeter`, currently on version 0.2.1, is primarily a Ruby library for accessing (scraping) PG&amp;E energy use data. Future plans include carbon calculations by CM1 and a UI for PG&amp;E customers. 
-   
-   **Follow along** at [Matt's blog](http://matt.colyer.name), where he'll be writing about his ongoing experience with `smartermeter`.
 {.fellows}
